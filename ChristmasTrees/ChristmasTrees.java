@@ -1,22 +1,22 @@
 
 /**
- * Write a description of class ChristmasTrees here.
+ * Programming Project 3.1 - ChristmasTrees
+ * Prints christmas trees with different heights and number of segments.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Hannah Pang
+ * @version September 29, 2015
  */
 public class ChristmasTrees
 {
     public static void main(String[] args) 
     {
-        int segment = 3;
-        int height = 4;
-        printTree(segment,height);
+        printTree(8,8);
+        printTree(5,5);
     }
     
     public static void printTree(int segment, int height)
     {
-        int x = 5;
+        int x = segment + height - 2;
         int y = 1;
         int x1 = x;
         int y1 = y;
@@ -41,18 +41,23 @@ public class ChristmasTrees
             x1 = x;
             y1 = y;
         }
-        printBase();
-    }
+        int z1 = segment + height - 2; 
+        for (int i = 1; i <= z1; i++)
+        {
+            System.out.print(" ");
+        }
+        System.out.println("*");
+        for (int i = 1; i <= z1; i++)
+        {
+            System.out.print(" ");
+        }
+        System.out.println("*");
     
-    public static void printBase()
-    {
-        oneStar();
-        oneStar();
-        System.out.println("  *******");
-    }
-    
-    public static void oneStar()
-    {
-            System.out.println("     *");
+        int z2 = segment + height - 5; 
+        for (int i = 1; i <= z2; i++)
+        {
+            System.out.print(" ");
+        }
+        System.out.println("*******");
     }
 }
