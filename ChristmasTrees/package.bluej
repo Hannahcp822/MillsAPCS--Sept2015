@@ -1,6 +1,6 @@
 #BlueJ package file
 objectbench.height=76
-objectbench.width=668
+objectbench.width=678
 package.editor.height=400
 package.editor.width=570
 package.editor.x=202
@@ -11,9 +11,9 @@ package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
 target1.editor.height=700
-target1.editor.width=900
-target1.editor.x=411
-target1.editor.y=9
+target1.editor.width=1076
+target1.editor.x=179
+target1.editor.y=23
 target1.height=50
 target1.name=ChristmasTrees
 target1.naviview.expanded=true
