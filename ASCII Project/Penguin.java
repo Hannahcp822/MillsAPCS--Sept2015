@@ -1,6 +1,6 @@
 
 /**
- * ASCII Project - prints a penguin holding a balloon
+ * ASCII Project - Penguins holding balloons
  * 
  * @author Hannah Pang
  * @version October 02, 2015
@@ -9,13 +9,17 @@ public class Penguin
 {
     public static void main(String[] args)
     {
-                printPenguin(2,5);
+        printPenguin(2,3);
     }   
     
+    // parameters used to define # penguins horizontally and # penguins vertically
     public static void printPenguin(int height, int width)
     {                           
+        // for loop to print multiple penguins vertically
         for (int i = 1; i <= height; i++)
         {
+            // series of print statements to print each line of the penguin
+            // for loops to print multiple penguins horizontally
             for (int j = 1; j <= width; j++)
             {
                 System.out.print("                                       88888888 ");
@@ -133,17 +137,17 @@ public class Penguin
             System.out.println();
             for (int j = 1; j <= width; j++)
             {
-                System.out.print("                W@@@@@@@@@@@@@@@W              ");
+                System.out.print("                W@@@@@@@@@@@@@@@W               ");
             } 
             System.out.println();
             for (int j = 1; j <= width; j++)
             {
-                System.out.print("                W      W W      W              ");
+                System.out.print("                W      W W      W               ");
             } 
             System.out.println();
             for (int j = 1; j <= width; j++)
             {
-                System.out.print("                WWW/\\WWW WWW/\\WWW              ");
+                System.out.print("                WWW/\\WWW WWW/\\WWW               ");
             } 
             System.out.println();
             for (int j = 1; j <= width; j++)
